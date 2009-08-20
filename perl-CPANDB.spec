@@ -14,8 +14,10 @@ Source0:    http://www.cpan.org/modules/by-module//%{upstream_name}-%{upstream_v
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(LWP::Online)
 BuildRequires: perl(ORLite::Mirror)
+BuildRequires: perl(ORLite::Statistics)
 BuildRequires: perl(Params::Util)
 BuildRequires: perl(Test::More)
+
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
