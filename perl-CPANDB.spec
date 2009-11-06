@@ -1,5 +1,5 @@
 %define upstream_name    CPANDB
-%define upstream_version 0.10
+%define upstream_version 0.12
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -45,6 +45,7 @@ rm -rf %buildroot
 %files
 %defattr(-,root,root)
 %doc LICENSE README Changes
+%{_mandir}/man1/*
 %{_mandir}/man3/*
 %perl_vendorlib/*
 %{_bindir}/cpangraph
